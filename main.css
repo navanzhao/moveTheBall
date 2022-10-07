@@ -1,0 +1,33 @@
+body {
+  font-size: 30px;
+  box-sizing: content-box;
+}
+
+
+div.field {
+  width: 400px;
+  height: 300px;
+  border: 10px solid black;
+  background-color: #00ff00;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+div.football {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  transform: translate(0px, 0px);
+  transition: transform ease-out 0.5s;
+}
+
+img {
+  width: 100%;
+}
+
+div.showPosition {
+  margin-top: 2rem;
+  color: coral;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
